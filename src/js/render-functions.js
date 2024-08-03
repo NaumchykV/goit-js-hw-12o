@@ -33,7 +33,7 @@ export function createImages(data) {
       <p>${hit.downloads}</p></div></div></div>`
     )
     .join('');
-  container.insertAdjacentHTML('afterbegin', images);
+  container.insertAdjacentHTML('beforeend', images);
   gallery.refresh();
 }
 
