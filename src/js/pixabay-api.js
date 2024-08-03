@@ -19,10 +19,10 @@ export default async function searchImages(query, page = 1) {
     });
     return response.data;
   } catch (error) {
-    iziToast.error({
-      position: 'topRight',
-      message: `${error}`,
-    });
+    // iziToast.error({
+    //   position: 'topRight',
+    //   message: `${error}`,
+    // });
   }
 }
 
